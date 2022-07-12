@@ -11,8 +11,26 @@
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form id="form-container" action="/test.html" method="get">
+        <fieldset>
+        <label for="name" class="label-text">Name:</label>
+
+        <input type="text" id="name" name="name" class="field__style">
+        
+
+        <label for="email" class="label-text">Email:</label>
+
+        <input type="email" id="email" name="email" class="field__style">
+
+        <label for="comment" class="label-text">Comment:</label>
+
+        <textarea id="comment" class="field__style" name="comment" rows="13"></textarea>
+
+        <div class="label-text"><em>Receive email updates?</em> <input type="checkbox" name="agreement" /></div>
+        
+        <input class="btn" type="button" value="Submit">
+
+        </fieldset>
     </form>
 
 </body>
