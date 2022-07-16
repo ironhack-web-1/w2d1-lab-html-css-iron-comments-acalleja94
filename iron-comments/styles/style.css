@@ -2,10 +2,50 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw; 
+    background-color: rgb(25, 33, 41);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #form-container {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    width: 250px;
+    box-sizing: content-box;
+    border: 2px solid rgb(67, 163, 230);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.label-text{
+    color:#fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+input{
+    height: 20px;
+}
+
+.field__style{
+    width: 250px;
+    margin: 8px 0;
+}
+
+.btn{
+    height: auto;
+    margin: 10px 0;
+    background-color: rgb(67, 163, 230);
+    color:#fff;
+    border-radius: 15px;
+    padding: 7px;
+    border:0;
+    font-size: 16px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
 }
